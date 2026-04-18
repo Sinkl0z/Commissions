@@ -1,4 +1,4 @@
-```lua
+
 --[[local OldNamecall
 OldNamecall = hookmetamethod(game, "__namecall", function(Self, ...)
     local Arguments = {...}
@@ -97,4 +97,3 @@ local BaseRoot = PlotModule.GetRawBaseRoot(RandomBase)
 MovementModule.TweenToPlot(BaseRoot)
 
 -- // TODO: ?
-```
